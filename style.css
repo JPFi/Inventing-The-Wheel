@@ -1,0 +1,21 @@
+.background {
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    border: 24px;
+    margin: 24px;
+}
+
+.container-block1 {
+    display: flex;
+    gap: 300px;
+    margin: 48px;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+}
