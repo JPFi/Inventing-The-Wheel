@@ -7,7 +7,6 @@ Things to do in Yosemite (Content Layout random):
     Hiking
     Tours
     Art and Photography
-
     Hotel stay (2-to 4 days)
     Fishing
     Bird Watching
