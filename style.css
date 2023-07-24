@@ -18,13 +18,13 @@ body {
     text-align: center;
 }
 
-.sideways {
+.content {
     color: white;
     justify-content: center;
     align-items: center;
 }
 
-.container {
+.header {
     background-color: black;
     color: white;
     display: flex;
@@ -65,7 +65,7 @@ button {
     gap: 20px;
 }
 
-.links {
+.rightside {
     color: #F8F0E3;
 }
 
@@ -74,17 +74,26 @@ button {
     max-width: 400px;
 }
 
-.container2 {
+.background2 {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
     margin: 5px;
     gap: 5px;
 }
 
-.container3 {
+.approach {
+    height: 5rem;
+    width: 70.6875rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.background3 { 
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -105,36 +114,30 @@ button {
     justify-content: center;
 }
 
-.background3 {
-    flex: 1;
+.background4 {
+    background-color: #3b444b;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(Images/Black.jpg);
-    background-position: center;
-    overflow: hidden;
-    padding: 80px;
-    max-width: 100%;
-    max-height: 20%;
-    height: 600px;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.biometrics {
+    margin-left: 80px;
 }
 
 .row3-1 {
     display: flex;
-    background-color: #FAF9F6;
+    align-self: center;
     font-weight: bold;
-    align-self: flex-end;
-    width: 700px;
+    margin-right: 40px;
 }
 
 .row3 {
     width: 600px;
-    background-color: #FAF9F6;
-    color: black
+    color: whitesmoke;
 }
 
-.background4 {
+.background5 {
     display: flex;
     justify-content: space-between;
     background-color: royalblue;
