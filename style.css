@@ -75,13 +75,14 @@ button {
 }
 
 .background2 {
+    background-color: black;
+    color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    margin: 5px;
     gap: 5px;
 }
 
@@ -93,7 +94,9 @@ button {
     margin: 0;
 }
 
-.background3 { 
+.background3 {
+    background-color: black;
+    color: white;
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -115,10 +118,10 @@ button {
 }
 
 .background4 {
-    background-color: #3b444b;
+    background-color: #6082B6;
+    opacity: 70%;
     display: flex;
     padding: 40px;
-    justify-content: space-between;
 }
 
 .biometrics {
@@ -126,10 +129,12 @@ button {
 }
 
 .row3-1 {
+    color: white;
     display: flex;
+    align-self: flex-end;
     align-self: center;
     font-weight: bold;
-    margin-right: 40px;
+    margin: 80px;
 }
 
 .row3 {
@@ -138,29 +143,54 @@ button {
 }
 
 .background5 {
+    background-color: black;
     display: flex;
-    justify-content: space-between;
-    background-color: royalblue;
-    margin: 80px;
-    padding: 10px 200px;
-    border-radius: 10px;
-    width: 65%;
+    padding-left: 1000px;
 }
 
-.signup2 {
-    background: royalblue;
-    border: 1px solid white;
-    color: white;
+.landscape {
+    margin: 70px;
+    width: 60%;
 }
 
 .defined1 {
     color: white;
 }
 
-.row5 {
+.background6 {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+}
+
+.Headline-left {
+    display: flex;
+    background: linear-gradient(to left,
+    #27251F,
+    grey,
+    white);
+    -webkit-background-clip: text;
+    color: transparent;
+    border: 10px dotted black;
+}
+
+.source-left, .source-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    flex: 1;
+}
+
+.source-left {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.source-right {
+    background-color: #f3efff;
 }
 
 .footer {
@@ -172,4 +202,12 @@ button {
     padding: 30px;
     left: 0;
     bottom: 0;
+}
+
+.background6 {
+    font-size: large;
+}
+
+.blended {
+    background-color: #f3efff;
 }
